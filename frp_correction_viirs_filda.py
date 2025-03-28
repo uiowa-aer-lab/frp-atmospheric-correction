@@ -5,7 +5,7 @@ def do_FRP_AC(filda_id, lut_id, geos_fp=False, geos_fp_id=None):
 	----------------
 	Paramters:
 	filda_id: handler of a VIIRS FILDA-2 file
-	lut_id: handler of the look-up table file (downloadable from xxxxx)
+	lut_id: handler of the look-up table file (downloadable from https://arroma.uiowa.edu/filda_luts.php)
 	geos_fp: whether to correct for water vapor absorption using GEOS-FP
 	geos_fp_id: handler of a GEOS-FP file that temporally matches the FILDA-2 file
 	----------------
