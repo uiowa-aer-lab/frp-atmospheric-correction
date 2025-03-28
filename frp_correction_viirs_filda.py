@@ -17,7 +17,7 @@ def do_FRP_AC(filda_id, lut_id, geos_fp=False, geos_fp_id=None):
 	import pandas as pd
 	from netCDF4 import Dataset
 	
-	# read FILDA-2 file
+	# read VIIRS FILDA-2 file
 	print('Reading FILDA-2 file: ', filda_id)
 	f = Dataset(filda_id, 'r')
 	FP_Latitude = f.variables['FP_Latitude'][:] # fire pixel latitude (degree)
