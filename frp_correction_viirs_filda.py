@@ -63,18 +63,18 @@ def do_FRP_AC(filda_id, lut_id, geos_fp=False, geos_fp_id=None):
 		FP_Power_AC[i] = FP_Power[i]/tau # correct FRP
 
 # 		# checking:
-# 		print('i is', i)
+# 		print('fire pixel index is ', i)
 # 		print('FRP uncorrected is ', FP_Power[i]) 
-# 		print('VZA is ', Sensor_Zenith[i]) 		
-# 		print('FP latitude is ', FP_Latitude[i])
-# 		print('FP longitude is ', FP_Longitude[i])
-# 		print('lat idx for GEOS-FP is', lat_idx)
-# 		print('lon idx for GEOS-FP is', lon_idx)
+# 		print('view zenith angle is ', Sensor_Zenith[i]) 		
+# 		print('fire pixel latitude is ', FP_Latitude[i])
+# 		print('fire pixel longitude is ', FP_Longitude[i])
+# 		print('lat index for GEOS-FP is ', lat_idx)
+# 		print('lon index for GEOS-FP is ', lon_idx)
 # 		print('precipitable water is ', PW)
-# 		print('PW idx in LUT is', PW_idx)
-# 		print('VZA idx in LUT is', VZA_idx)
+# 		print('PW index in LUT is ', PW_idx)
+# 		print('VZA index in LUT is ', VZA_idx)
 # 		print('transmitance is ', tau)
-# 		print('FP corrected is', FP_Power_AC[i])
+# 		print('FRP corrected is', FP_Power_AC[i])
 # 		print('')
 
 	return FP_Power_AC
