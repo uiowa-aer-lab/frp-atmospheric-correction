@@ -81,6 +81,6 @@ def do_FRP_AC(filda_id, lut_id, geos_fp=False, geos_fp_id=None):
 	
 filda_id = './VNP47IMG.A2014365.2354.002.2024304000833.nc'
 lut_id = './LUT_VNP.csv'
-geos_fp_id = './GEOS-FP/M2I1NXASM_Single-Level_Diagnostics/GEOS.fp.asm.inst3_2d_asm_Nx.20141231_2100.V01.nc4'
 geos_fp = True
+geos_fp_id = './GEOS-FP/M2I1NXASM_Single-Level_Diagnostics/GEOS.fp.asm.inst3_2d_asm_Nx.20141231_2100.V01.nc4'
 FP_Power_AC = do_FRP_AC(filda_id, lut_id, geos_fp, geos_fp_id)
