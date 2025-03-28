@@ -1,5 +1,5 @@
 # frp-atmospheric-correction
-Python code to conduct atmospheric correction for VIIRS FILDA FRP retrieval
+Python code to conduct atmospheric correction for VIIRS FILDA FRP retrieval.
 
 References:
 1. Deng, W., Zhou, M., Wang, J., Xue, Z., Lu, Z., Chen, X., Zhang, H., Peterson, D. A., Hyer, E. J., da Silva, A. M. (2024). Advancing FRP Retrieval: Bridging Theory and Application. IEEE Transactions on Geoscience and Remote Sensing, 62, 1-16. doi:10.1109/TGRS.2024.3470538 
