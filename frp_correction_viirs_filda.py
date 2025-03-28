@@ -1,10 +1,10 @@
 def do_FRP_AC(filda_id, lut_id, geos_fp=False, geos_fp_id=None):
 
 	'''
-	Python function to conduct the first order atmospheric correction for FRP
+	Python function to conduct the first order atmospheric correction for FRP retrieval
 	----------------
 	Paramters:
-	filda_id: handler of a FILDA-2 file
+	filda_id: handler of a VIIRS FILDA-2 file
 	lut_id: handler of the look-up table file (downloadable from xxxxx)
 	geos_fp: whether to correct for water vapor absorption using GEOS-FP
 	geos_fp_id: handler of a GEOS-FP file that temporally matches the FILDA-2 file
@@ -79,8 +79,8 @@ def do_FRP_AC(filda_id, lut_id, geos_fp=False, geos_fp_id=None):
 
 	return FP_Power_AC
 	
-filda_id = '/Dedicated/jwang-data2/shared_satData/FILDA-2/VNP47IMG/2014/365/VNP47IMG.A2014365.2354.002.2024304000833.nc'
-lut_id = '/Dedicated/jwang-data3/weizhdeng/share_data/AC_LUT/LUT_VNP.csv'
-geos_fp_id = '/Dedicated/jwang-data/shared_satData/GEOS-FP/M2I1NXASM_Single-Level_Diagnostics/GEOS.fp.asm.inst3_2d_asm_Nx.20141231_2100.V01.nc4'
+filda_id = './VNP47IMG.A2014365.2354.002.2024304000833.nc'
+lut_id = './LUT_VNP.csv'
+geos_fp_id = './GEOS-FP/M2I1NXASM_Single-Level_Diagnostics/GEOS.fp.asm.inst3_2d_asm_Nx.20141231_2100.V01.nc4'
 geos_fp = True
 FP_Power_AC = do_FRP_AC(filda_id, lut_id, geos_fp, geos_fp_id)
