@@ -62,7 +62,7 @@ def do_FRP_AC(filda_id, lut_id, geos_fp=False, geos_fp_id=None):
 		tau = LUT[PW_array[PW_idx]][VZA_idx] # read transmittance based on PW and VZA		
 		FP_Power_AC[i] = FP_Power[i]/tau # correct FRP
 
-# 		# WD, checking only:
+# 		# checking:
 # 		print('i is', i)
 # 		print('FRP uncorrected is ', FP_Power[i]) 
 # 		print('VZA is ', Sensor_Zenith[i]) 		
